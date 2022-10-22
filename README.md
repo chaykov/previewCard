@@ -4,4 +4,6 @@ Product Preview Card Component
 
 # Connecting to a device Macbook
 
-It works
+Successfully.
+
+By Chaykov of 2022.
