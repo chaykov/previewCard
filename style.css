@@ -61,7 +61,7 @@ body {
   line-height: 15px;
   letter-spacing: 5px;
   text-transform: uppercase;
-  margin-bottom: 1px;
+  margin-bottom: -1px;
 }
 
 .text-gabrielle {
