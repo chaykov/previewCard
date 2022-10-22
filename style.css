@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f2eae2;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background: #fff;
+  width: 600px;
+  height: 450px;
+
+  border-radius: 10px;
+
+  display: flex;
+  overflow: hidden;
+}
+
+.box {
+  flex: 1;
+}
+
+.box1 {
+  background: url("./images/image-product-desktop.jpg");
+  background-position: center;
+  background-size: cover;
+  filter: contrast(1.05);
+  min-width: 50%;
+}
+
+.box2 {
+  background-color: #fff;
+  min-width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 32px;
+}
+
+.text-perfume {
+  color: #6c7289;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.text-gabrielle {
+  color: hsl(212, 21%, 14%);
+  font-family: "Fraunces", sans-serif;
+  font-style: bold;
+  font-size: 32px;
+  line-height: 32px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.text-desc {
+  color: #6c7289;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+.costContainer {
+  display: flex;
+
+  gap: 19px;
+  align-items: center;
+}
+
+.costSale {
+  color: #3d8168;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.costDefault {
+  color: #6c7289;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 23px;
+  text-decoration: line-through;
+  text-align: left;
+  vertical-align: top;
+  gap: 19px;
+}
+
+.buttonCart {
+  border: none;
+  outline: none;
+
+  background: #3d8168;
+  width: 100%;
+  min-height: 48px;
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 12px;
+}
+
+.buttonCart:hover {
+  cursor: pointer;
+  background-color: #1a4032;
+}
+
+.textCart {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+@media (max-width: 375px) {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: calc(100% - 48px);
+    margin: 16px;
+  }
+
+  .box1 {
+    flex: 1;
+    /* width: 100%; */
+    /* overflow: hidden; */
+    /* background-position: center; */
+    /* background-size: cover; */
+    /* max-width: 343px; */
+    width: 100%;
+    /* height: 240px; */
+  }
+
+  .box2 {
+    flex: 1.5;
+  }
+}
