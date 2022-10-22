@@ -10,7 +10,6 @@
 body {
   background: #f2eae2;
   height: 100vh;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -19,7 +18,6 @@ body {
 .footer {
   position: absolute;
   bottom: 0;
-  /* left: 0; */
   padding: 20px;
 }
 
@@ -27,9 +25,7 @@ body {
   background: #fff;
   width: 600px;
   height: 450px;
-
   border-radius: 10px;
-
   display: flex;
   overflow: hidden;
 }
@@ -49,7 +45,6 @@ body {
 .box2 {
   background-color: #fff;
   min-width: 50%;
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -60,6 +55,7 @@ body {
 .text-perfume {
   color: #6c7289;
   font-family: "Montserrat", sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
@@ -68,9 +64,10 @@ body {
 }
 
 .text-gabrielle {
-  color: hsl(212, 21%, 14%);
+  color: #1c232b;
   font-family: "Fraunces", sans-serif;
-  font-style: bold;
+  font-style: normal;
+  font-weight: 700;
   font-size: 32px;
   line-height: 32px;
 }
@@ -78,6 +75,7 @@ body {
 .text-desc {
   color: #6c7289;
   font-family: "Montserrat", sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 23px;
@@ -85,7 +83,6 @@ body {
 
 .costContainer {
   display: flex;
-
   gap: 19px;
   align-items: center;
 }
@@ -93,38 +90,33 @@ body {
 .costSale {
   color: #3d8168;
   font-family: "Fraunces", sans-serif;
+  font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 32px;
-  text-align: left;
-  vertical-align: top;
 }
 
 .costDefault {
   color: #6c7289;
   font-family: "Montserrat", sans-serif;
-  font-size: 13px;
+  font-style: normal;
   font-weight: 500;
+  font-size: 13px;
   line-height: 23px;
   text-decoration: line-through;
-  text-align: left;
-  vertical-align: top;
   gap: 19px;
 }
 
 .buttonCart {
   border: none;
   outline: none;
-
   background: #3d8168;
   width: 100%;
   min-height: 48px;
   border-radius: 8px;
-
   display: flex;
   justify-content: center;
   align-items: center;
-
   gap: 12px;
 }
 
@@ -136,6 +128,7 @@ body {
 .textCart {
   color: #fff;
   font-family: "Montserrat", sans-serif;
+  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
@@ -164,12 +157,14 @@ body {
   .box1 {
     flex: 1;
     display: block;
+    background: url("./images/image-product-mobile.jpg");
+    background-position: center;
     background-size: cover;
     width: 100%;
   }
 
   .box2 {
-    flex: 1.5;
+    flex: 1.3458;
     padding: 24px;
   }
 
