@@ -15,7 +15,7 @@ body {
   justify-content: center;
 }
 
-.footer {
+footer {
   position: absolute;
   bottom: 0;
   padding: 20px;
@@ -140,7 +140,7 @@ body {
     display: none;
   }
 
-  .footer {
+  footer {
     display: none;
   }
 }
